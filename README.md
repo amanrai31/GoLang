@@ -18,3 +18,15 @@ Go lang is multithreaded thats why it has some disadvantages too like concurrenc
 2. Speed,safty and efficiency like lower level/statically typed langs like c++/java.
 3. It is complied lang, compiles into single binary. (Take that binary and use across diff plateforms.)
 4. Consistent across diff OS.
+
+---
+
+1. go mod init <project-name>
+2. Create main.go file
+3. `package main` in file `main.go`- All code belong to a package.
+4. `func main()` is entry point in Go. A program(app) can have only 1 main function
+5. `import "fmt"` core package provided by GO library.
+
+- ***Note -*** Go prorams are organized into pakages, Go's standard library provides diff core packages for us- `fmt` is one of them.
+
+6. `go run <filename>` e.g.- go run main.go
