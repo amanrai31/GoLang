@@ -21,7 +21,7 @@ Go lang is multithreaded thats why it has some disadvantages too like concurrenc
 
 ---
 
-1. go mod init <project-name>
+1. `go mod init <project-name>` creates `go.mod` file. (Like `npm init` creates `package.json`)
 2. Create main.go file
 3. `package main` in file `main.go`- All code belong to a package.
 4. `func main()` is entry point in Go. A program(app) can have only 1 main function
@@ -30,3 +30,10 @@ Go lang is multithreaded thats why it has some disadvantages too like concurrenc
 - ***Note -*** Go prorams are organized into pakages, Go's standard library provides diff core packages for us- `fmt` is one of them.
 
 6. `go run <filename>` e.g.- go run main.go
+
+---
+`go mod tidy` installs all dependencies specified in the `go.mod` (Like `npm i `)
+
+---
+
+- Look into `main.go` for variable,
