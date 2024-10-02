@@ -7,8 +7,8 @@ func main() {
 
 	fmt.Println("hello")
 
-	var confernceName = "Go conference"
+	var lang = "Go"
 
-	fmt.Println("working on", confernceName)
+	fmt.Println("working on", lang)
 
 }

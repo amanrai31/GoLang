@@ -1,5 +1,5 @@
 # GoLang
-Go language
+Go language (1.Install =>2.set PATH environment for go in .bashrc)
 
 Go lang is multithreaded thats why it has some disadvantages too like concurrency.
 
@@ -14,7 +14,7 @@ Go lang is multithreaded thats why it has some disadvantages too like concurrenc
 2. Runs on scaled, distributed systems.
 
 #### Characterstics of Go (Simplicity and speed)
-1. Simple and readable syntax of dynamic typed  langs(more hifh level lang) like python.
+1. Simple and readable syntax of dynamic typed  langs(more high level lang) like python.
 2. Speed,safty and efficiency like lower level/statically typed langs like c++/java.
 3. It is complied lang, compiles into single binary. (Take that binary and use across diff plateforms.)
 4. Consistent across diff OS.
@@ -27,7 +27,7 @@ Go lang is multithreaded thats why it has some disadvantages too like concurrenc
 4. `func main()` is entry point in Go. A program(app) can have only 1 main function
 5. `import "fmt"` core package provided by GO library.
 
-- ***Note -*** Go prorams are organized into pakages, Go's standard library provides diff core packages for us- `fmt` is one of them.
+- ***Note -*** Go programs are organized into pakages, Go's standard library provides diff core packages for us- `fmt` is one of them.
 
 6. `go run <filename>` e.g.- go run main.go
 
@@ -36,4 +36,3 @@ Go lang is multithreaded thats why it has some disadvantages too like concurrenc
 
 ---
 
-- Look into `main.go` for variable,
