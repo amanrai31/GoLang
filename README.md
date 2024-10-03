@@ -1,5 +1,6 @@
 # GoLang
 Go language (1.Install =>2.set PATH environment for go in .bashrc)
+GO is compiled, multithreaded, statically typed, garbage collector and Cross-palteform Language.
 
 Go lang is multithreaded thats why it has some disadvantages too like concurrency.
 
