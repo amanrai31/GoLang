@@ -1,0 +1,1 @@
+`fp` short for fmt.Println 
