@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 const GlobalName = "Rai"
 
@@ -27,4 +29,5 @@ func main() {
 
 	fmt.Println("Global name is:", GlobalName)
 	fmt.Printf("Global type is: %T", GlobalName)
+
 }
