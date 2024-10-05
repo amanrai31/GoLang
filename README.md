@@ -37,4 +37,11 @@ Go lang is multithreaded thats why it has some disadvantages too like concurrenc
 `go mod tidy` installs all dependencies specified in the `go.mod` (Like `npm i `)
 
 ---
+- LOOK at `go env` - all details related to GO.
+`GOOS="windows" go build` => builds executable file for windows.
+`GOOS="darwin" go build` => builds executable file for mac.
+`GOOS="linux" go build` => builds executable file for linux.
 
+---
+
+Memory management and Garbage collection happens automatically in GO.
