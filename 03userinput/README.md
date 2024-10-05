@@ -6,4 +6,10 @@
 3. Scanf()
 
 
-*** Comma OK || Comma Error** 
+*** Comma OK || Comma Error syntax** 
+
+```
+reader := bufio.NewReader(os.stdin)
+input, _ := reader.ReadString('\n')    // underscroe is for error that may occur. 
+
+```
